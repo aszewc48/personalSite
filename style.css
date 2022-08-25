@@ -1,0 +1,73 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/Quicksand-VariableFont_wght.ttf);
+}    
+
+html,
+body {
+    margin: 0 auto;
+    font-family: myFirstFont;
+}
+
+.topMenu {
+    height: 75px;
+    border: 1px solid rgb(223, 210, 210);
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 5%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.topMenu ul{
+    display: flex;
+    font-size: 0.75em;
+}
+.topMenu ul li{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+}
+.navLogo{
+    width: 50%
+}
+.s1 {
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%
+}
+.face {
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 100%
+}
+.s2{
+    background-color: #CDE7B0;
+    height: 500px;
+    padding: 2% 5%;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+.s2 h1{
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+    border-width: 2px 2px 0 2px;
+    border-style: solid;
+    margin: 3% 35%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+.projectImg {
+    width: 50%
+}
