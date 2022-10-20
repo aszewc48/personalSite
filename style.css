@@ -1,15 +1,17 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(/Quicksand-VariableFont_wght.ttf);
+    src: url("./fonts/Quicksand-VariableFont_wght.ttf");
 }    
 
 html,
 body {
     margin: 0 auto;
     font-family: myFirstFont;
+    background-color: #dac1a5;
 }
 
 .topMenu {
+    background-color: #CDE7B0;
     height: 75px;
     border: 1px solid rgb(223, 210, 210);
     border-radius: 3px;
@@ -50,24 +52,40 @@ body {
     border: 1px solid black;
     border-radius: 100%
 }
-.s2{
+.project{
     background-color: #CDE7B0;
-    height: 500px;
     padding: 2% 5%;
     border: 1px solid transparent;
     border-radius: 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .s2 h1{
-    display:flex;
-    justify-content: center;
-    text-transform: uppercase;
-    border-width: 2px 2px 0 2px;
+    padding: 1%;
+    border-width: 2px 2px 0px 2px;
     border-style: solid;
-    margin: 3% 35%;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     
 }
 .projectImg {
-    width: 50%
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-left: 25%;
+}
+.p1Link {
+    width: 4%;
+    margin-left: 1%;
+}
+.bottom {
+    margin-top: 5%;
+background: #CDE7B0;
+color: white;
+clip-path: polygon(0 95%, 100% 0, 0 100%, 0 50%);
+padding: 10rem 20%;
+border-radius: 3px
 }
